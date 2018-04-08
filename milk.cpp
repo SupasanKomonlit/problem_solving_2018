@@ -1,119 +1,116 @@
 #include <iostream>
 
-struct string_node{
-	std::string message;
-	string_node* next;
+//#define debug
 
-	string_node(std::string message = "", string_node* next = 0)
-		: message(message) , next(next){}
-};
-
-void add_message(string_node* problem,std::string message){
-	string_node* target = problem;
-	while(true){
-		if(target->next != 0){
-			target = target->next;
-		}
-		else{
-			target->next = new string_node(message);
-			break;
-		}
-	}
-}
-
-void print_message( string_node* problem){
-	std::cout << "message : " ;
-	string_node* target = problem;
-	while(target->next != 0){
-		target = target->next;
-		std::cout << target->message << " ";
-	}
-	std::cout << std::endl;
-}
-
-struct component{
+struct milk{
 	int number;
-	component* next;
-
-	component(int number = 0 , component* next = 0)
-		: number(number) , next(next){}
+	int group;
+	int member;
+	
+	milk ( int number = 0 , int group = 0 , int member = 0)
+		: number(number) , group(group) , member(member){}
 };
-
-int add_component( component* problem , int key){
-	component* target = problem;
-	while(true){
-		if(target->next != 0){
-			target = target->next;
-			if(target->number == key) return 0;
-		}
-		else{
-			target->next = new component(key);
-			return 1;
-		}
-	}
-}
-
-void print_component( component* problem){
-	std::cout << "component : " ;
-	component* target = problem;
-	while(target->next != 0){
-		target = target->next;
-		std::cout << target->number << " ";
-	}
-	std::cout << std::endl;
-}
-
-void print_milk( component problem[] , int size){
-	for(int count = 0 ; count < size ; count ++) print_component(&problem[count]);
-}
-
-std::string check_milk( component* problem, int key, int size){
-	component* target = problem;
-	while(target->next != 0){
-		target = target->next;
-		if(target->number == key) return "yes";
-	}
-	return "no";
-}
-
-void mix_milk( component problem[] , int size){
-	int again = 0;
-	do{
-		again = 0;
-		std::cout << "********** mix_milk **********" << std::endl;
-		for(int count = 1 ; count <= size ; count++){
-			component* target_data = problem[count-1];
-			component* location_data = problem[count-1];
-			while(target_data->next != 0){
-				target = target->next;
-				while(  )
-			}
-		}
-		print_milk( problem , size);
-		std::cout << "********* finish ************ and again is " << again << std::endl;
-	}while(again == 1);
-}
-
 
 int main(){
-	int num_01, num_02, amont, all_milk; 
-	std::string type;
-	std::cin  >> all_milk >> amont;
-	component x[all_milk];
-	string_node* answer = new string_node;
-	for(int count = 0 ; count < amont ; count++){
-		std::cout << "Input data : ";
-		std::cin >> type >> num_01 >> num_02;
+	int amont_milk , amont_command;
+	std::cin >> amont_milk >> amont_command;
+/*	#ifdef debug
+		std::cout << "test code declare\n";
+		milk array_milk[2];
+		array_milk[0].number = 1;
+		std::cout << array_milk[0].number << "\n";
+	#endif*/
+	milk array_milk[amont_milk];
+	for(int count = 0 , number = 1 ; count < amont_milk ; count++ , number ++){
+		array_milk[count].number = number;
+		array_milk[count].group = number;
+		array_milk[count].member = 1;
+	}
+	std::string type, answer = "";
+	int input_01 , input_02 , min_group , more_group,
+		limit_01 , limit_02 , amont_min , amont_more;
+	for(int count = 0 ; count < amont_command ; count++){
+		std::cin >> type >> input_01 >> input_02;
+		input_01--;
+		input_02--;
 		if(type == "c"){
-			add_component( &x[num_01-1] , num_02);
-			mix_milk( x , all_milk);
+			#ifdef debug
+				std::cout << "merge between " << array_milk[input_01].number 
+							<< " with " << array_milk[input_02].number << "\n";
+			#endif
+			if(array_milk[input_01].group == array_milk[input_02].group){
+				#ifdef debug
+					std::cout << "===============SAME GROUP================\n";
+				#endif
+				continue;
+			}
+			else if(array_milk[input_01].member < array_milk[input_02].member){
+				min_group = array_milk[input_01].group;
+				limit_01 = array_milk[input_01].member;
+				more_group = array_milk[input_02].group;
+				limit_02 = array_milk[input_02].member;
+				amont_min = array_milk[input_01].member;
+				amont_more = array_milk[input_02].member;
+			}
+			else{
+				min_group = array_milk[input_02].group;
+				limit_01 = array_milk[input_02].member;
+				more_group = array_milk[input_01].group;
+				limit_02 = array_milk[input_01].member;
+				amont_min = array_milk[input_02].member;
+				amont_more = array_milk[input_01].member;
+			}
+			
+			for(	int count_01 = 0 , count_02 = 0 , run = 0,
+					plus_member = array_milk[input_02].member + array_milk[input_01].member;
+					run < amont_milk ; run++){
+				if(min_group == array_milk[run].group){
+					array_milk[run].group = more_group;
+					array_milk[run].member = plus_member;
+					count_01++;
+					#ifdef debug
+						std::cout << "min_group number " << array_milk[run].number 
+								  << " to group is " << array_milk[run].group 
+								  << " count is " << count_01 << "\n";
+					#endif
+				}
+				else if(more_group == array_milk[run].group){
+					array_milk[run].member = plus_member;
+					count_02++;
+					#ifdef debug
+						std::cout << "max_group number " << array_milk[run].number 
+								  << " to group is " << array_milk[run].group 
+								  << " count is " << count_02 << "\n";
+					#endif
+				}
+				if(count_01 == amont_min && count_02 == amont_more){
+					#ifdef debug
+						std::cout << "break out \n";
+					#endif
+					break;
+				}
+			}
 		}
 		else if(type == "q"){
-			add_message( answer , check_milk(&x[num_01-1] , num_02));
+			#ifdef debug
+				std::cout << "question input_01 : " << input_01 
+							<< "and input_02 : " << input_02 << "\n";
+			#endif
+			if(array_milk[input_01].group == array_milk[input_02].group)
+				answer += "yes\n";
+			else answer += "no\n";
 		}
-		std::cout << "==================" << std::endl;
-		print_milk( x , all_milk);
-		print_message( answer );
-		std::cout << "==================" << std::endl;
+		#ifdef debug
+			std::cout << "-------------print all milk---------------\n";
+			std::cout << "\tnumber\tgroup\tmember\n";
+			for(int count = 0 ; count < amont_milk ; count++)
+				std::cout << "\t" << array_milk[count].number
+						  << "\t" << array_milk[count].group
+						  << "\t" << array_milk[count].member << "\n";
+			std::cout << "--------------print answer----------------\n";
+			std::cout << answer;
+			std::cout << "-------------finish print-----------------\n"; 
+		#endif
 	}
+	std::cout << answer;
 }
