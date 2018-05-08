@@ -1,0 +1,318 @@
+---------- Welcome to maze ----------
+...#.#
+.###.#
+......
+####.#
+..#..#
+...#..
+0 0 0 -99 0 -99 
+0 -99 -99 -99 0 -99 
+0 0 0 0 0 0 
+-99 -99 -99 -99 0 -99 
+0 0 -99 0 0 -99 
+0 0 0 -99 0 0 
+At start [0,2]  At Target [4,4]  
+
+
+
+I will move right and send to function
+before send to function 
+Now I'm at [0,2] and move right and size is 6
+-98
+out of key
+
+
+
+I will move left and send to function
+before send to function 
+Now I'm at [0,2] and move left and size is 6
+
+
+
+I will move up and send to function
+before send to function 
+Now I'm at [0,2] and move up and size is 6
+1
+Now I'm at [0,1] and move right and size is 6
+-98
+out of key
+Now I'm at [0,1] and move left and size is 6
+Now I'm at [0,1] and move up and size is 6
+1
+Now I'm at [0,0] and move right and size is 6
+1
+Now I'm at [1,0] and move right and size is 6
+1
+Now I'm at [2,0] and move right and size is 6
+-98
+out of key
+Now I'm at [2,0] and move left and size is 6
+-3
+out of key
+Now I'm at [2,0] and move up and size is 6
+Now I'm at [2,0] and move down and size is 6
+1
+Now I'm at [2,1] and move right and size is 6
+-98
+out of key
+Now I'm at [2,1] and move left and size is 6
+-98
+out of key
+Now I'm at [2,1] and move up and size is 6
+-3
+out of key
+Now I'm at [2,1] and move down and size is 6
+1
+Now I'm at [2,2] and move right and size is 6
+-98
+out of key
+Now I'm at [2,2] and move left and size is 6
+-98
+out of key
+Now I'm at [2,2] and move up and size is 6
+-3
+out of key
+Now I'm at [2,2] and move down and size is 6
+1
+Now I'm at [2,3] and move right and size is 6
+-98
+out of key
+Now I'm at [2,3] and move left and size is 6
+-98
+out of key
+Now I'm at [2,3] and move up and size is 6
+-3
+out of key
+Now I'm at [2,3] and move down and size is 6
+1
+Now I'm at [2,4] and move right and size is 6
+1
+Now I'm at [3,4] and move right and size is 6
+1
+End function answer is yes
+End function answer is yes
+End function answer is yes
+End function answer is yes
+End function answer is yes
+End function answer is yes
+End function answer is yes
+End function answer is yes
+End function answer is yes
+End function answer is yes
+answer is yes
+At start [0,4]  At Target [4,0]  
+
+
+
+I will move right and send to function
+before send to function 
+Now I'm at [0,4] and move right and size is 6
+1
+Now I'm at [1,4] and move right and size is 6
+1
+Now I'm at [2,4] and move right and size is 6
+1
+Now I'm at [3,4] and move right and size is 6
+1
+Now I'm at [4,4] and move right and size is 6
+1
+Now I'm at [5,4] and move right and size is 6
+Now I'm at [5,4] and move left and size is 6
+-3
+out of key
+Now I'm at [5,4] and move up and size is 6
+-98
+out of key
+Now I'm at [5,4] and move down and size is 6
+1
+Now I'm at [5,5] and move right and size is 6
+Now I'm at [5,5] and move left and size is 6
+-98
+out of key
+Now I'm at [5,5] and move up and size is 6
+-3
+out of key
+Now I'm at [5,5] and move down and size is 6
+End function answer is no
+End function answer is no
+Now I'm at [4,4] and move left and size is 6
+-3
+out of key
+Now I'm at [4,4] and move up and size is 6
+1
+Now I'm at [4,3] and move right and size is 6
+-98
+out of key
+Now I'm at [4,3] and move left and size is 6
+-98
+out of key
+Now I'm at [4,3] and move up and size is 6
+-98
+out of key
+Now I'm at [4,3] and move down and size is 6
+-3
+out of key
+End function answer is no
+Now I'm at [4,4] and move down and size is 6
+-98
+out of key
+End function answer is no
+Now I'm at [3,4] and move left and size is 6
+-3
+out of key
+Now I'm at [3,4] and move up and size is 6
+-98
+out of key
+Now I'm at [3,4] and move down and size is 6
+-98
+out of key
+End function answer is no
+Now I'm at [2,4] and move left and size is 6
+-3
+out of key
+Now I'm at [2,4] and move up and size is 6
+1
+Now I'm at [2,3] and move right and size is 6
+-98
+out of key
+Now I'm at [2,3] and move left and size is 6
+-98
+out of key
+Now I'm at [2,3] and move up and size is 6
+1
+Now I'm at [2,2] and move right and size is 6
+-98
+out of key
+Now I'm at [2,2] and move left and size is 6
+-98
+out of key
+Now I'm at [2,2] and move up and size is 6
+1
+Now I'm at [2,1] and move right and size is 6
+-98
+out of key
+Now I'm at [2,1] and move left and size is 6
+-98
+out of key
+Now I'm at [2,1] and move up and size is 6
+1
+Now I'm at [2,0] and move right and size is 6
+-98
+out of key
+Now I'm at [2,0] and move left and size is 6
+1
+Now I'm at [1,0] and move right and size is 6
+-3
+out of key
+Now I'm at [1,0] and move left and size is 6
+1
+Now I'm at [0,0] and move right and size is 6
+-3
+out of key
+Now I'm at [0,0] and move left and size is 6
+Now I'm at [0,0] and move up and size is 6
+Now I'm at [0,0] and move down and size is 6
+1
+Now I'm at [0,1] and move right and size is 6
+-98
+out of key
+Now I'm at [0,1] and move left and size is 6
+Now I'm at [0,1] and move up and size is 6
+-3
+out of key
+Now I'm at [0,1] and move down and size is 6
+1
+Now I'm at [0,2] and move right and size is 6
+-98
+out of key
+Now I'm at [0,2] and move left and size is 6
+Now I'm at [0,2] and move up and size is 6
+-3
+out of key
+Now I'm at [0,2] and move down and size is 6
+-98
+out of key
+End function answer is no
+End function answer is no
+End function answer is no
+Now I'm at [1,0] and move up and size is 6
+Now I'm at [1,0] and move down and size is 6
+-98
+out of key
+End function answer is no
+Now I'm at [2,0] and move up and size is 6
+Now I'm at [2,0] and move down and size is 6
+-3
+out of key
+End function answer is no
+Now I'm at [2,1] and move down and size is 6
+-3
+out of key
+End function answer is no
+Now I'm at [2,2] and move down and size is 6
+-3
+out of key
+End function answer is no
+Now I'm at [2,3] and move down and size is 6
+-3
+out of key
+End function answer is no
+Now I'm at [2,4] and move down and size is 6
+1
+Now I'm at [2,5] and move right and size is 6
+-98
+out of key
+Now I'm at [2,5] and move left and size is 6
+-98
+out of key
+Now I'm at [2,5] and move up and size is 6
+-3
+out of key
+Now I'm at [2,5] and move down and size is 6
+End function answer is no
+End function answer is no
+Now I'm at [1,4] and move left and size is 6
+1
+Now I'm at [0,4] and move right and size is 6
+-3
+out of key
+Now I'm at [0,4] and move left and size is 6
+Now I'm at [0,4] and move up and size is 6
+-98
+out of key
+Now I'm at [0,4] and move down and size is 6
+-98
+out of key
+End function answer is no
+Now I'm at [1,4] and move up and size is 6
+-98
+out of key
+Now I'm at [1,4] and move down and size is 6
+-98
+out of key
+End function answer is no
+
+
+
+I will move left and send to function
+before send to function 
+Now I'm at [0,4] and move left and size is 6
+
+
+
+I will move up and send to function
+before send to function 
+Now I'm at [0,4] and move up and size is 6
+-98
+out of key
+
+
+
+I will move down and send to function
+before send to function 
+Now I'm at [0,4] and move down and size is 6
+-98
+out of key
+answer is no
+yes
+no

@@ -1,0 +1,739 @@
+---------- Welcome to maze ----------
+#.#....
+..#####
+#......
+#.#0###
+#.#..#.
+#.##0##
+#.#....
+-99 0 -99 0 0 0 0 
+0 0 -99 -99 -99 -99 -99 
+-99 0 0 0 0 0 0 
+-99 0 -99 -1 -99 -99 -99 
+-99 0 -99 0 0 -99 0 
+-99 0 -99 -99 -1 -99 -99 
+-99 0 -99 0 0 0 0 
+At start [1,0]  At Target [2,6]  
+
+
+
+I will move right and send to function
+before send to function 
+Now I'm at [1,0] and move right and size is 7
+-98
+out of key
+
+
+
+I will move left and send to function
+before send to function 
+Now I'm at [1,0] and move left and size is 7
+-98
+out of key
+
+
+
+I will move up and send to function
+before send to function 
+Now I'm at [1,0] and move up and size is 7
+
+
+
+I will move down and send to function
+before send to function 
+Now I'm at [1,0] and move down and size is 7
+1
+Now I'm at [1,1] and move right and size is 7
+1
+Now I'm at [2,1] and move right and size is 7
+1
+Now I'm at [3,1] and move right and size is 7
+1
+Now I'm at [4,1] and move right and size is 7
+1
+Now I'm at [5,1] and move right and size is 7
+1
+Now I'm at [6,1] and move right and size is 7
+Now I'm at [6,1] and move left and size is 7
+-3
+out of key
+Now I'm at [6,1] and move up and size is 7
+-98
+out of key
+Now I'm at [6,1] and move down and size is 7
+-98
+out of key
+End function answer is no
+Now I'm at [5,1] and move left and size is 7
+-3
+out of key
+Now I'm at [5,1] and move up and size is 7
+-98
+out of key
+Now I'm at [5,1] and move down and size is 7
+-98
+out of key
+End function answer is no
+Now I'm at [4,1] and move left and size is 7
+-3
+out of key
+Now I'm at [4,1] and move up and size is 7
+-98
+out of key
+Now I'm at [4,1] and move down and size is 7
+-98
+out of key
+End function answer is no
+Now I'm at [3,1] and move left and size is 7
+-3
+out of key
+Now I'm at [3,1] and move up and size is 7
+-98
+out of key
+Now I'm at [3,1] and move down and size is 7
+-98
+out of key
+End function answer is no
+Now I'm at [2,1] and move left and size is 7
+-3
+out of key
+Now I'm at [2,1] and move up and size is 7
+-98
+out of key
+Now I'm at [2,1] and move down and size is 7
+1
+Now I'm at [2,2] and move right and size is 7
+-98
+out of key
+Now I'm at [2,2] and move left and size is 7
+-98
+out of key
+Now I'm at [2,2] and move up and size is 7
+-3
+out of key
+Now I'm at [2,2] and move down and size is 7
+1
+Now I'm at [2,3] and move right and size is 7
+0
+Now I'm at [3,3] and move right and size is 7
+0
+Now I'm at [4,3] and move right and size is 7
+-99
+out of key
+Now I'm at [4,3] and move left and size is 7
+-4
+out of key
+Now I'm at [4,3] and move up and size is 7
+-99
+out of key
+Now I'm at [4,3] and move down and size is 7
+0
+Now I'm at [4,4] and move right and size is 7
+-1
+out of key
+Now I'm at [4,4] and move left and size is 7
+-99
+out of key
+Now I'm at [4,4] and move up and size is 7
+-4
+out of key
+Now I'm at [4,4] and move down and size is 7
+-99
+out of key
+End function answer is no
+End function answer is no
+Now I'm at [3,3] and move left and size is 7
+-4
+out of key
+Now I'm at [3,3] and move up and size is 7
+-99
+out of key
+Now I'm at [3,3] and move down and size is 7
+-99
+out of key
+End function answer is no
+Now I'm at [2,3] and move left and size is 7
+-98
+out of key
+Now I'm at [2,3] and move up and size is 7
+-3
+out of key
+Now I'm at [2,3] and move down and size is 7
+1
+Now I'm at [2,4] and move right and size is 7
+-98
+out of key
+Now I'm at [2,4] and move left and size is 7
+-98
+out of key
+Now I'm at [2,4] and move up and size is 7
+-3
+out of key
+Now I'm at [2,4] and move down and size is 7
+1
+Now I'm at [2,5] and move right and size is 7
+-98
+out of key
+Now I'm at [2,5] and move left and size is 7
+-98
+out of key
+Now I'm at [2,5] and move up and size is 7
+-3
+out of key
+Now I'm at [2,5] and move down and size is 7
+1
+End function answer is yes
+End function answer is yes
+End function answer is yes
+End function answer is yes
+End function answer is yes
+End function answer is yes
+End function answer is yes
+answer is yes
+At start [1,0]  At Target [4,3]  
+
+
+
+I will move right and send to function
+before send to function 
+Now I'm at [1,0] and move right and size is 7
+-98
+out of key
+
+
+
+I will move left and send to function
+before send to function 
+Now I'm at [1,0] and move left and size is 7
+-98
+out of key
+
+
+
+I will move up and send to function
+before send to function 
+Now I'm at [1,0] and move up and size is 7
+
+
+
+I will move down and send to function
+before send to function 
+Now I'm at [1,0] and move down and size is 7
+1
+Now I'm at [1,1] and move right and size is 7
+1
+Now I'm at [2,1] and move right and size is 7
+1
+Now I'm at [3,1] and move right and size is 7
+1
+Now I'm at [4,1] and move right and size is 7
+1
+Now I'm at [5,1] and move right and size is 7
+1
+Now I'm at [6,1] and move right and size is 7
+Now I'm at [6,1] and move left and size is 7
+-3
+out of key
+Now I'm at [6,1] and move up and size is 7
+-98
+out of key
+Now I'm at [6,1] and move down and size is 7
+-98
+out of key
+End function answer is no
+Now I'm at [5,1] and move left and size is 7
+-3
+out of key
+Now I'm at [5,1] and move up and size is 7
+-98
+out of key
+Now I'm at [5,1] and move down and size is 7
+-98
+out of key
+End function answer is no
+Now I'm at [4,1] and move left and size is 7
+-3
+out of key
+Now I'm at [4,1] and move up and size is 7
+-98
+out of key
+Now I'm at [4,1] and move down and size is 7
+-98
+out of key
+End function answer is no
+Now I'm at [3,1] and move left and size is 7
+-3
+out of key
+Now I'm at [3,1] and move up and size is 7
+-98
+out of key
+Now I'm at [3,1] and move down and size is 7
+-98
+out of key
+End function answer is no
+Now I'm at [2,1] and move left and size is 7
+-3
+out of key
+Now I'm at [2,1] and move up and size is 7
+-98
+out of key
+Now I'm at [2,1] and move down and size is 7
+1
+Now I'm at [2,2] and move right and size is 7
+-98
+out of key
+Now I'm at [2,2] and move left and size is 7
+-98
+out of key
+Now I'm at [2,2] and move up and size is 7
+-3
+out of key
+Now I'm at [2,2] and move down and size is 7
+1
+Now I'm at [2,3] and move right and size is 7
+0
+Now I'm at [3,3] and move right and size is 7
+0
+End function answer is yes
+End function answer is yes
+End function answer is yes
+End function answer is yes
+End function answer is yes
+End function answer is yes
+answer is yes
+At start [1,0]  At Target [0,5]  
+
+
+
+I will move right and send to function
+before send to function 
+Now I'm at [1,0] and move right and size is 7
+-98
+out of key
+
+
+
+I will move left and send to function
+before send to function 
+Now I'm at [1,0] and move left and size is 7
+-98
+out of key
+
+
+
+I will move up and send to function
+before send to function 
+Now I'm at [1,0] and move up and size is 7
+
+
+
+I will move down and send to function
+before send to function 
+Now I'm at [1,0] and move down and size is 7
+1
+Now I'm at [1,1] and move right and size is 7
+1
+Now I'm at [2,1] and move right and size is 7
+1
+Now I'm at [3,1] and move right and size is 7
+1
+Now I'm at [4,1] and move right and size is 7
+1
+Now I'm at [5,1] and move right and size is 7
+1
+Now I'm at [6,1] and move right and size is 7
+Now I'm at [6,1] and move left and size is 7
+-3
+out of key
+Now I'm at [6,1] and move up and size is 7
+-98
+out of key
+Now I'm at [6,1] and move down and size is 7
+-98
+out of key
+End function answer is no
+Now I'm at [5,1] and move left and size is 7
+-3
+out of key
+Now I'm at [5,1] and move up and size is 7
+-98
+out of key
+Now I'm at [5,1] and move down and size is 7
+-98
+out of key
+End function answer is no
+Now I'm at [4,1] and move left and size is 7
+-3
+out of key
+Now I'm at [4,1] and move up and size is 7
+-98
+out of key
+Now I'm at [4,1] and move down and size is 7
+-98
+out of key
+End function answer is no
+Now I'm at [3,1] and move left and size is 7
+-3
+out of key
+Now I'm at [3,1] and move up and size is 7
+-98
+out of key
+Now I'm at [3,1] and move down and size is 7
+-98
+out of key
+End function answer is no
+Now I'm at [2,1] and move left and size is 7
+-3
+out of key
+Now I'm at [2,1] and move up and size is 7
+-98
+out of key
+Now I'm at [2,1] and move down and size is 7
+1
+Now I'm at [2,2] and move right and size is 7
+-98
+out of key
+Now I'm at [2,2] and move left and size is 7
+-98
+out of key
+Now I'm at [2,2] and move up and size is 7
+-3
+out of key
+Now I'm at [2,2] and move down and size is 7
+1
+Now I'm at [2,3] and move right and size is 7
+0
+Now I'm at [3,3] and move right and size is 7
+0
+Now I'm at [4,3] and move right and size is 7
+-99
+out of key
+Now I'm at [4,3] and move left and size is 7
+-4
+out of key
+Now I'm at [4,3] and move up and size is 7
+-99
+out of key
+Now I'm at [4,3] and move down and size is 7
+0
+Now I'm at [4,4] and move right and size is 7
+-1
+out of key
+Now I'm at [4,4] and move left and size is 7
+-99
+out of key
+Now I'm at [4,4] and move up and size is 7
+-4
+out of key
+Now I'm at [4,4] and move down and size is 7
+-99
+out of key
+End function answer is no
+End function answer is no
+Now I'm at [3,3] and move left and size is 7
+-4
+out of key
+Now I'm at [3,3] and move up and size is 7
+-99
+out of key
+Now I'm at [3,3] and move down and size is 7
+-99
+out of key
+End function answer is no
+Now I'm at [2,3] and move left and size is 7
+-98
+out of key
+Now I'm at [2,3] and move up and size is 7
+-3
+out of key
+Now I'm at [2,3] and move down and size is 7
+1
+Now I'm at [2,4] and move right and size is 7
+-98
+out of key
+Now I'm at [2,4] and move left and size is 7
+-98
+out of key
+Now I'm at [2,4] and move up and size is 7
+-3
+out of key
+Now I'm at [2,4] and move down and size is 7
+1
+Now I'm at [2,5] and move right and size is 7
+-98
+out of key
+Now I'm at [2,5] and move left and size is 7
+-98
+out of key
+Now I'm at [2,5] and move up and size is 7
+-3
+out of key
+Now I'm at [2,5] and move down and size is 7
+1
+Now I'm at [2,6] and move right and size is 7
+-98
+out of key
+Now I'm at [2,6] and move left and size is 7
+-98
+out of key
+Now I'm at [2,6] and move up and size is 7
+-3
+out of key
+Now I'm at [2,6] and move down and size is 7
+End function answer is no
+End function answer is no
+End function answer is no
+End function answer is no
+End function answer is no
+End function answer is no
+Now I'm at [1,1] and move left and size is 7
+1
+Now I'm at [0,1] and move right and size is 7
+-3
+out of key
+Now I'm at [0,1] and move left and size is 7
+Now I'm at [0,1] and move up and size is 7
+-98
+out of key
+Now I'm at [0,1] and move down and size is 7
+-98
+out of key
+End function answer is no
+Now I'm at [1,1] and move up and size is 7
+1
+Now I'm at [1,0] and move right and size is 7
+-98
+out of key
+Now I'm at [1,0] and move left and size is 7
+-98
+out of key
+Now I'm at [1,0] and move up and size is 7
+Now I'm at [1,0] and move down and size is 7
+-3
+out of key
+End function answer is no
+Now I'm at [1,1] and move down and size is 7
+-98
+out of key
+End function answer is no
+answer is no
+At start [1,0]  At Target [6,5]  
+
+
+
+I will move right and send to function
+before send to function 
+Now I'm at [1,0] and move right and size is 7
+-98
+out of key
+
+
+
+I will move left and send to function
+before send to function 
+Now I'm at [1,0] and move left and size is 7
+-98
+out of key
+
+
+
+I will move up and send to function
+before send to function 
+Now I'm at [1,0] and move up and size is 7
+
+
+
+I will move down and send to function
+before send to function 
+Now I'm at [1,0] and move down and size is 7
+1
+Now I'm at [1,1] and move right and size is 7
+1
+Now I'm at [2,1] and move right and size is 7
+1
+Now I'm at [3,1] and move right and size is 7
+1
+Now I'm at [4,1] and move right and size is 7
+1
+Now I'm at [5,1] and move right and size is 7
+1
+Now I'm at [6,1] and move right and size is 7
+Now I'm at [6,1] and move left and size is 7
+-3
+out of key
+Now I'm at [6,1] and move up and size is 7
+-98
+out of key
+Now I'm at [6,1] and move down and size is 7
+-98
+out of key
+End function answer is no
+Now I'm at [5,1] and move left and size is 7
+-3
+out of key
+Now I'm at [5,1] and move up and size is 7
+-98
+out of key
+Now I'm at [5,1] and move down and size is 7
+-98
+out of key
+End function answer is no
+Now I'm at [4,1] and move left and size is 7
+-3
+out of key
+Now I'm at [4,1] and move up and size is 7
+-98
+out of key
+Now I'm at [4,1] and move down and size is 7
+-98
+out of key
+End function answer is no
+Now I'm at [3,1] and move left and size is 7
+-3
+out of key
+Now I'm at [3,1] and move up and size is 7
+-98
+out of key
+Now I'm at [3,1] and move down and size is 7
+-98
+out of key
+End function answer is no
+Now I'm at [2,1] and move left and size is 7
+-3
+out of key
+Now I'm at [2,1] and move up and size is 7
+-98
+out of key
+Now I'm at [2,1] and move down and size is 7
+1
+Now I'm at [2,2] and move right and size is 7
+-98
+out of key
+Now I'm at [2,2] and move left and size is 7
+-98
+out of key
+Now I'm at [2,2] and move up and size is 7
+-3
+out of key
+Now I'm at [2,2] and move down and size is 7
+1
+Now I'm at [2,3] and move right and size is 7
+0
+Now I'm at [3,3] and move right and size is 7
+0
+Now I'm at [4,3] and move right and size is 7
+-99
+out of key
+Now I'm at [4,3] and move left and size is 7
+-4
+out of key
+Now I'm at [4,3] and move up and size is 7
+-99
+out of key
+Now I'm at [4,3] and move down and size is 7
+0
+Now I'm at [4,4] and move right and size is 7
+-1
+out of key
+Now I'm at [4,4] and move left and size is 7
+-99
+out of key
+Now I'm at [4,4] and move up and size is 7
+-4
+out of key
+Now I'm at [4,4] and move down and size is 7
+-99
+out of key
+End function answer is no
+End function answer is no
+Now I'm at [3,3] and move left and size is 7
+-4
+out of key
+Now I'm at [3,3] and move up and size is 7
+-99
+out of key
+Now I'm at [3,3] and move down and size is 7
+-99
+out of key
+End function answer is no
+Now I'm at [2,3] and move left and size is 7
+-98
+out of key
+Now I'm at [2,3] and move up and size is 7
+-3
+out of key
+Now I'm at [2,3] and move down and size is 7
+1
+Now I'm at [2,4] and move right and size is 7
+-98
+out of key
+Now I'm at [2,4] and move left and size is 7
+-98
+out of key
+Now I'm at [2,4] and move up and size is 7
+-3
+out of key
+Now I'm at [2,4] and move down and size is 7
+1
+Now I'm at [2,5] and move right and size is 7
+-98
+out of key
+Now I'm at [2,5] and move left and size is 7
+-98
+out of key
+Now I'm at [2,5] and move up and size is 7
+-3
+out of key
+Now I'm at [2,5] and move down and size is 7
+1
+Now I'm at [2,6] and move right and size is 7
+-98
+out of key
+Now I'm at [2,6] and move left and size is 7
+-98
+out of key
+Now I'm at [2,6] and move up and size is 7
+-3
+out of key
+Now I'm at [2,6] and move down and size is 7
+End function answer is no
+End function answer is no
+End function answer is no
+End function answer is no
+End function answer is no
+End function answer is no
+Now I'm at [1,1] and move left and size is 7
+1
+Now I'm at [0,1] and move right and size is 7
+-3
+out of key
+Now I'm at [0,1] and move left and size is 7
+Now I'm at [0,1] and move up and size is 7
+-98
+out of key
+Now I'm at [0,1] and move down and size is 7
+-98
+out of key
+End function answer is no
+Now I'm at [1,1] and move up and size is 7
+1
+Now I'm at [1,0] and move right and size is 7
+-98
+out of key
+Now I'm at [1,0] and move left and size is 7
+-98
+out of key
+Now I'm at [1,0] and move up and size is 7
+Now I'm at [1,0] and move down and size is 7
+-3
+out of key
+End function answer is no
+Now I'm at [1,1] and move down and size is 7
+-98
+out of key
+End function answer is no
+answer is no
+yes
+yes
+no
+no

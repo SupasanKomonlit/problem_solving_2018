@@ -11,15 +11,17 @@ struct milk{
 		: number(number) , group(group) , member(member){}
 };
 
+int find_group(milk problem);
+
 int main(){
 	int amont_milk , amont_command;
 	std::cin >> amont_milk >> amont_command;
-/*	#ifdef debug
+	#ifdef debug
 		std::cout << "test code declare\n";
 		milk array_milk[2];
 		array_milk[0].number = 1;
 		std::cout << array_milk[0].number << "\n";
-	#endif*/
+	#endif
 	milk array_milk[amont_milk];
 	for(int count = 0 , number = 1 ; count < amont_milk ; count++ , number ++){
 		array_milk[count].number = number;
@@ -113,4 +115,12 @@ int main(){
 		#endif
 	}
 	std::cout << answer;
+}
+
+int find_group(milk problem){
+	#ifdef debug
+		std::cout << "Welcome to find group" << "\n";
+		std::cout << "size of problem is " << sizeof(problem) << "\n";
+	#endif
+	
 }
